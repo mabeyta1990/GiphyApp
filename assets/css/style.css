@@ -1,0 +1,51 @@
+body {
+	display: block;
+	margin: auto;
+	background: url('../images/comicBookBG.jpg');
+	background-size: cover;
+	font-family: 'Bangers', cursive;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+h1{
+	color: #28a745;
+	font-size: 45px;  
+}
+h2{
+	color: white;
+	font-size: 20px;
+	
+}
+.jumbotron {
+	background-color: #591207;
+	
+
+}
+
+.jumbotron span {
+	float: left;
+}
+.buttonDiv {
+	clear: both;
+}
+.buttonDiv button {
+	padding: 10px;
+	margin: 5px;
+}
+.item {
+	float: left;
+	margin: 5px 5px 0px 5px;
+	color: #28a745;
+	text-align: center;
+	font-size: 25px;
+	background-color:#591207; 
+	padding: 5px 5px 5px 5px;
+	
+}
+.item p {
+	background-color: #591207;
+	width: auto;
+	
+}
+#searchNav {
+	color: #591207;
+}
