@@ -50,7 +50,7 @@ let getGifs = () => {
 		let userSearch = $(this).val();
 		let apiKey = "gvdtQ8o8QZOF1N9jRr7QrvTk6U6ey5b1"
 		console.log(userSearch);
-		let queryURL = `http://api.giphy.com/v1/gifs/search?q=${userSearch}&api_key=${apiKey}&limit=10`
+		let queryURL = `https://api.giphy.com/v1/gifs/search?q=${userSearch}&api_key=${apiKey}&limit=10`
 		$.ajax({
 			url: queryURL,
 			method: "GET",
